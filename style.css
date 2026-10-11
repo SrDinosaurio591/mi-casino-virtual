@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b3012; /* Verde tapete de casino */
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    border-bottom: 4px solid #d4af37; /* Dorado */
+}
+
+.balance-container {
+    font-size: 1.5rem;
+    color: #d4af37;
+    margin-top: 10px;
+}
+
+#btn-recargar {
+    background-color: #d4af37;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.apuesta-zona {
+    margin: 30px auto;
+    font-size: 1.2rem;
+}
+
+.apuesta-zona input {
+    padding: 5px;
+    font-size: 1.1rem;
+    width: 100px;
+    text-align: center;
+}
+
+.juegos-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.juego-card {
+    background-color: #1a1a1a;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.grande {
+    width: 400px;
+}
+
+.mesa-bj {
+    background: #074213;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: left;
+    border: 1px solid #d4af37;
+}
+
+.slot-pantalla, .mano-poker {
+    font-size: 2rem;
+    background-color: black;
+    padding: 15px;
+    margin: 15px 0;
+    letter-spacing: 3px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #b80c0c;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+button:disabled {
+    background-color: #444;
+    color: #888;
+    cursor: not-allowed;
+}
+
+.opciones-ruleta, .controles-bj {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-rojo { background-color: #d12c2c; }
+.btn-negro { background-color: #333333; }
+
+.resultado-texto {
+    margin-top: 15px;
+    font-style: italic;
+    min-height: 24px;
+}
